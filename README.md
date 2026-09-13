@@ -276,22 +276,34 @@ graph TD
 
 ### Build Plan & Scope (3-Week Hackathon MVP)
 
+This build plan is scoped to fit CodeNection's actual Building Phase window (21 Sept – 11 Oct, 3 weeks). Where the original 4-phase concept didn't fit inside 3 weeks, we merged phases and explicitly moved lower-priority work to a stretch goal rather than overcommitting.
+ 
 #### Week 1: Core Architecture & Data Integration
 * Set up React Native (Expo) shell, navigation stacks, and Figma-aligned UI design tokens.
 * Configure Supabase PostgreSQL schema with Leader-only edit permissions and WebSocket subscription channels.
 * Implement Google Calendar OAuth integration to pull user flight schedules and automatically flag availability windows.
-
 #### Week 2: AI Vision & Itinerary Generation Engine
 * Build backend integration with OpenAI GPT-4o Vision API for multi-image screenshot processing and venue extraction.
 * Develop the **AI Harmony Router** algorithm to generate master timelines and identify preference divergence points.
 * Implement the **Subgroup Micro-Loop** logic: auto-generating 45-minute parallel branches and identifying nearest coffee/dessert reunion anchors via Google Places API.
-
-#### Week 3: Dynamic Budgeting & In-App Collaboration
-* Build the frontend **Live Budget Bar** component with per-pax dynamic calculation hooks.
-* Develop the **Proactive AI Budget Trim** engine to generate automated cost-cutting swap proposals.
+#### Week 3: Dynamic Budgeting, Collaboration & Live Execution
+* Build the frontend **Live Budget Bar** component with per-pax dynamic calculation hooks, and the **Proactive AI Budget Trim** engine for automated cost-cutting swap proposals.
 * Implement in-app chat with embedded interactive voting cards (allowing members to approve/reject nodes directly in-chat).
-
-#### Week 4: Live Execution Agent, Safety & Testing
 * Build the **Report Disruption** workflow to recalculate remaining stops in response to delays or weather events.
-* Implement the **Parent View** digest generator to output high-level AI status reports.
-* Conduct end-to-end integration testing, API error handling, and performance optimization prior to submission.
+* Run targeted integration testing on the two highest-priority flows — subgroup consensus/budget trim, and live disruption replanning — plus core API error handling, ahead of submission.
+**Stretch goal (post-core, if time permits):** the **Parent View** digest generator (high-level AI status reports for parents). This is a genuine differentiator we want to build, but we're scoping it out of the guaranteed 3-week core so that budgeting and disruption-handling — the two features most central to solving the problem statement — are fully working and tested first.
+ 
+---
+ 
+## 6. Impact
+ 
+### For Users
+* Plan, discuss, and book every stage of the journey in one unified platform.
+* Balances group votes with personal flexibility, preventing logistics from straining relationships.
+* Builds geo-clustered, time-optimised itineraries in minutes.
+* Automatically updates schedules and suggests nearby alternatives when disruptions hit.
+* Logs spending on the go and tracks real-time balances to show who owes whom.
+### For Partners
+* Promotes locations dynamically to active travel squads planning nearby routes.
+* Embeds local attractions natively into itineraries to drive organic footfall.
+* Surfaces aggregated visitor trends and route data to help optimise partner offerings.
