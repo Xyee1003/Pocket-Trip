@@ -2,8 +2,8 @@
 
 **Team:** Kam Pue Shan, Faustina Lai Wan Yee, Tan Wen Jie, Tang Xin Yee  
 **Problem Statement:** Lifestyle Track: Planning an Escape (Travel Planner)  
-**Video Presentation:** [Unlisted Youtube Link]  
-**Presentation Slides:** [Public Link]  
+**Video Presentation:** [https://youtu.be/dYDMV80upG0]  
+**Presentation Slides:** [https://canva.link/y4avz1u1hwqz0h3] 
 
 ---
 
@@ -107,6 +107,16 @@ To design Pocket Trip AI, our team conducted a root-cause breakdown of group tra
 * **Explored & Dropped**: Direct in-app booking was dropped as an unrealistic build scope.
 * **Final Pick**: Integrated an **AI Chatbot** for instant conversational edits, nearby stay recommendations with price estimates, and an **Inspo Image Parser** to extract locations directly from uploaded social media screenshots.
 
+#### 4. Final Modifications & Technical Refinement Mindmap
+
+![Final Modifications Mindmap](docs/assets/final_modifications_mindmap.png)
+*Figure 2.4: Refinement Mindmap — Synthesizing mentor feedback into concrete system adjustments across AI touchpoints, logic refinements, non-mandatory preferences, and transparency.*
+
+* **Expanded AI Integration**: Shifted to personalized location recommendations based on user preferences for tailored itinerary planning.
+* **Logic Refinement (Replacing Hard-No)**: Replaced rigid rejection modals with AI-recommended alternative routes (keeping user swap options intact) while guaranteeing that "Must-Have" locations are strictly preserved in the schedule.
+* **Non-Mandatory Preferences**: Preference inputs feed the recommendation system without being forced upfront, eliminating onboarding delays for passive members.
+* **AI Transparency & Rationale**: Integrated explicit AI explanations into the Activity Description view, enabling users to understand AI reasoning before deciding whether to keep or swap stops.
+  
 ### 2.3 Mentor Consultation
 
 <table>
