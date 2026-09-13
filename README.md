@@ -79,7 +79,7 @@ To design Pocket Trip AI, our team conducted a root-cause breakdown of group tra
 #### 2. First Draft Prototype Audit & Pain Points
 
 ![First Draft Pain Point Audit](docs/assets/first_draft_audit01.png.png)
-！[](docs/assets/first_draft_audit02.png.png)
+![First Draft Pain Point Audit](docs/assets/first_draft_audit02.png.png)
 
 *Figure 2.2: Initial Flow Critiques — Identifying onboarding bottlenecks caused by pending members, uncoordinated flight arrival times, and unmoderated editing rights.*
 
