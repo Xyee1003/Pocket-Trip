@@ -66,7 +66,8 @@ To design Pocket Trip AI, our team conducted a root-cause breakdown of group tra
 
 #### 1. Root-Cause Analysis (Problem Tree)
 
-![Problem Tree Analysis](docs/assets/problem_tree.png)
+![Problem Tree Analysis](docs/assets/problem_tree.png.png)
+
 *Figure 2.1: Problem Tree Mapping — Tracing how unprioritized preferences, zero-floor budget sliders, and market cost ignorance directly lead to member friction and plan abandonment.*
 
 * **Preference Overload**: Allowing unlimited "wants" and "don'ts" without prioritization creates niche activity combinations and tiny, isolated subgroups.
@@ -77,8 +78,9 @@ To design Pocket Trip AI, our team conducted a root-cause breakdown of group tra
 
 #### 2. First Draft Prototype Audit & Pain Points
 
-![First Draft Pain Point Audit](docs/assets/first_draft_audit01.png)
-！[](docs/assets/first_draft_audit02.png)
+![First Draft Pain Point Audit](docs/assets/first_draft_audit01.png.png)
+！[](docs/assets/first_draft_audit02.png.png)
+
 *Figure 2.2: Initial Flow Critiques — Identifying onboarding bottlenecks caused by pending members, uncoordinated flight arrival times, and unmoderated editing rights.*
 
 * **Onboarding Bottlenecks**: Requiring upfront preference forms created severe delays whenever inactive group members remained in a "Pending" state.
@@ -89,7 +91,8 @@ To design Pocket Trip AI, our team conducted a root-cause breakdown of group tra
 
 #### 3. How Might We (HMW) & Idea Selection Board
 
-![HMW and Idea Selection Board](docs/assets/hmw_matrix.png)
+![HMW and Idea Selection Board](docs/assets/hmw_matrix.png.PNG)
+
 *Figure 2.3: Ideation & Selection Board — Mapping HMW questions across Preferences, Budget, and Engagement, evaluating trade-offs, and selecting our final feature set.*
 
 ##### Preference Control
