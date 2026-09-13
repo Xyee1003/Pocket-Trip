@@ -2,8 +2,8 @@
 
 **Team:** Kam Pue Shan, Faustina Lai Wan Yee, Tan Wen Jie, Tang Xin Yee  
 **Problem Statement:** Lifestyle Track: Planning an Escape (Travel Planner)  
-**Video Presentation:** [https://youtu.be/dYDMV80upG0]  
-**Presentation Slides:** [https://canva.link/y4avz1u1hwqz0h3] 
+**Video Presentation:** https://youtu.be/dYDMV80upG0  
+**Presentation Slides:** https://canva.link/y4avz1u1hwqz0h3 
 
 ---
 
@@ -181,7 +181,7 @@ To design Pocket Trip AI, our team conducted a root-cause breakdown of group tra
 
 ## 3. Design & Prototype
 
-**UI Prototype:** [https://www.figma.com/design/Vd08aJCY0ix9kyV9NJg8pR/UI-Prototype-Pocket-Trip?node-id=2009-632&t=7SCQYwLwL8Ws1qtk-1]
+**UI Prototype:** https://www.figma.com/design/Vd08aJCY0ix9kyV9NJg8pR/UI-Prototype-Pocket-Trip?node-id=2009-632&t=7SCQYwLwL8Ws1qtk-1
 
 ### Key Screen Breakdowns
 
